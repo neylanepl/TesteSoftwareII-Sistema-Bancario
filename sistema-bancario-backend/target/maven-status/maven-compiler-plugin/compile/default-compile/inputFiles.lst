@@ -1,0 +1,10 @@
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/api/AccountRequest.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/service/BankService.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/api/AccountResponse.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/repository/BankRepository.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/api/TransferRequest.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/controller/BankController.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/SavingsAccount.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/Account.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/App.java
+/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-backend/src/main/java/imd/ufrn/model/BonusAccount.java

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: imd.ufrn.ApiBankCommunicationServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.748 s <<< FAILURE! - in imd.ufrn.ApiBankCommunicationServiceTest
+testDebit_Success(imd.ufrn.ApiBankCommunicationServiceTest)  Time elapsed: 0.499 s  <<< FAILURE!
+java.lang.AssertionError
+	at imd.ufrn.ApiBankCommunicationServiceTest.testDebit_Success(ApiBankCommunicationServiceTest.java:123)
+
+testCheckBalance_Success(imd.ufrn.ApiBankCommunicationServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at imd.ufrn.ApiBankCommunicationServiceTest.testCheckBalance_Success(ApiBankCommunicationServiceTest.java:90)
+
+testCreateAccount_Success(imd.ufrn.ApiBankCommunicationServiceTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError
+	at imd.ufrn.ApiBankCommunicationServiceTest.testCreateAccount_Success(ApiBankCommunicationServiceTest.java:59)
+
+testTransfer_Success(imd.ufrn.ApiBankCommunicationServiceTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError
+	at imd.ufrn.ApiBankCommunicationServiceTest.testTransfer_Success(ApiBankCommunicationServiceTest.java:156)
+
+testCredit_Success(imd.ufrn.ApiBankCommunicationServiceTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected:<150.0> but was:<0.0>
+	at imd.ufrn.ApiBankCommunicationServiceTest.testCredit_Success(ApiBankCommunicationServiceTest.java:107)
+

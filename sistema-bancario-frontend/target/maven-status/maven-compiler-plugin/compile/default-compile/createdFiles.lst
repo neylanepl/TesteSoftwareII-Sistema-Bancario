@@ -1,0 +1,10 @@
+imd/ufrn/service/UrlService.class
+imd/ufrn/presentation/BankTerminalPresentation.class
+imd/ufrn/model/SavingsAccount.class
+imd/ufrn/App.class
+imd/ufrn/model/api/AccountRequest.class
+imd/ufrn/model/Account.class
+imd/ufrn/model/BonusAccount.class
+imd/ufrn/model/api/AccountResponse.class
+imd/ufrn/model/api/TransferRequest.class
+imd/ufrn/service/ApiBankCommunicationService.class

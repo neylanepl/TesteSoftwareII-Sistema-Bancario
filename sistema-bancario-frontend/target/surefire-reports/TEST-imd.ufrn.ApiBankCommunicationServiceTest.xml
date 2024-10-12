@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="imd.ufrn.ApiBankCommunicationServiceTest" time="0.748" tests="8" errors="1" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="imd.ufrn.ApiBankCommunicationServiceTest" time="0.745" tests="8" errors="1" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/test-classes:/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/classes:/home/neylanepereira/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/neylanepereira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/neylanepereira/.m2/repository/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar:/home/neylanepereira/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/neylanepereira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/neylanepereira/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.6/evosuite-standalone-runtime-1.0.6.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:"/>
+    <property name="java.class.path" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/test-classes:/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/classes:/home/neylanepereira/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/neylanepereira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/neylanepereira/.m2/repository/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar:/home/neylanepereira/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/neylanepereira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/neylanepereira/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.6/evosuite-standalone-runtime-1.0.6.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,20 +17,20 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/surefire/surefirebooter1645356074931722240.jar /home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/surefire 2024-10-12T13-54-41_689-jvmRun1 surefire795610089915496216tmp surefire_02428184088163621577tmp"/>
-    <property name="surefire.test.class.path" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/test-classes:/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/classes:/home/neylanepereira/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/neylanepereira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/neylanepereira/.m2/repository/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar:/home/neylanepereira/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/neylanepereira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/neylanepereira/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.6/evosuite-standalone-runtime-1.0.6.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:"/>
+    <property name="sun.java.command" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/surefire/surefirebooter3138088012675321849.jar /home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/surefire 2024-10-12T17-53-12_325-jvmRun1 surefire4666498690614137420tmp surefire_06682539419845147755tmp"/>
+    <property name="surefire.test.class.path" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/test-classes:/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/classes:/home/neylanepereira/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/neylanepereira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/neylanepereira/.m2/repository/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar:/home/neylanepereira/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar:/home/neylanepereira/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/neylanepereira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/neylanepereira/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.6/evosuite-standalone-runtime-1.0.6.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/home/neylanepereira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/neylanepereira"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="basedir" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend"/>
+    <property name="basedir" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend/target/surefire/surefirebooter1645356074931722240.jar"/>
+    <property name="surefire.real.class.path" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend/target/surefire/surefirebooter3138088012675321849.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_422-8u422-b05-1~24.04-b05"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_422"/>
-    <property name="user.dir" value="/home/neylanepereira/dev/GCM-Sistema-Bancario-master/sistema-bancario-frontend"/>
+    <property name="user.dir" value="/home/neylanepereira/dev/TesteSoftwareII-Sistema-Bancario/sistema-bancario-frontend"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testDebit_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.499">
+  <testcase name="testDebit_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.567">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at imd.ufrn.ApiBankCommunicationServiceTest.testDebit_Success(ApiBankCommunicationServiceTest.java:123)
 </failure>
@@ -106,12 +106,12 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]></system-err>
   </testcase>
-  <testcase name="testCheckBalance_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.002">
+  <testcase name="testCheckBalance_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at imd.ufrn.ApiBankCommunicationServiceTest.testCheckBalance_Success(ApiBankCommunicationServiceTest.java:90)
 </error>
   </testcase>
-  <testcase name="testCreateAccount_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.008">
+  <testcase name="testCreateAccount_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.009">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at imd.ufrn.ApiBankCommunicationServiceTest.testCreateAccount_Success(ApiBankCommunicationServiceTest.java:59)
 </failure>
@@ -149,7 +149,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]></system-err>
   </testcase>
-  <testcase name="testTransfer_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.011">
+  <testcase name="testTransfer_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.013">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at imd.ufrn.ApiBankCommunicationServiceTest.testTransfer_Success(ApiBankCommunicationServiceTest.java:156)
 </failure>
@@ -187,8 +187,8 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]></system-err>
   </testcase>
-  <testcase name="testPayFees_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.013"/>
-  <testcase name="testCredit_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.013">
+  <testcase name="testPayFees_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.002"/>
+  <testcase name="testCredit_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.011">
     <failure message="expected:&lt;150.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<150.0> but was:<0.0>
 	at imd.ufrn.ApiBankCommunicationServiceTest.testCredit_Success(ApiBankCommunicationServiceTest.java:107)
 ]]></failure>
@@ -227,5 +227,5 @@ java.lang.NullPointerException
 ]]></system-err>
   </testcase>
   <testcase name="testGetAccountByNumber_Success" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0"/>
-  <testcase name="testDebit_InsufficientFunds" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.018"/>
+  <testcase name="testDebit_InsufficientFunds" classname="imd.ufrn.ApiBankCommunicationServiceTest" time="0.008"/>
 </testsuite>
